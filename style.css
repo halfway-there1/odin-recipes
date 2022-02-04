@@ -1,0 +1,16 @@
+h1 {
+    /* color: #d6aa69; */
+    color: white;
+    text-align: center;
+    background-color: #6abfc3;
+    font-size: 50px;
+}
+
+li {
+    font-size: 25px;
+}
+
+a {
+    color: orange;
+    font-size: 25px;
+}
