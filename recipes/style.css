@@ -1,5 +1,35 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
 .recipe-title {
-    text-align: left;
-    background-color: hsl(32, 72%, 82%);
+    text-align: center;
+    /* background-color: hsl(32, 72%, 82%); */
     font-size: 32px;
+    padding: 8px;
+    width: fit-content;
+    margin: 0 0;
+    display: inline-block;
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.recipe-icon {
+    height: 50px;
+    width: auto;
+}
+
+.recipe-image {
+    display: block;
+    height: 400px;
+    width: auto;
+    margin: 0 0 0 10px;
+    border: 2px solid white;
 }

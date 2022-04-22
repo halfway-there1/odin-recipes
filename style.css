@@ -1,9 +1,25 @@
+* {
+    /* font-family: 'Ubuntu', sans-serif; */
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
 h1 {
     /* color: #d6aa69; */
     color: white;
     text-align: center;
-    background-color: #6abfc3;
+    /* background-color: #6abfc3; */
+    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
+}
+
+.recipe-list {
+    width: 400px;
+    margin: 0 auto;
+    border: 3px solid orange;
 }
 
 li {
