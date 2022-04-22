@@ -6,14 +6,23 @@
 body {
     background-color: black;
 }
+.header img {
+    display: block;
+    margin: 0 auto;
+}
 
-h1 {
+.header h1 {
     /* color: #d6aa69; */
     color: white;
-    text-align: center;
+    /* text-align: center; */
     /* background-color: #6abfc3; */
+    border: 2px solid #6abfc3;
+    border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
+    margin: -30px auto 15px;
+    width: fit-content;
+    padding: 0 12px;
 }
 
 .recipe-list {
